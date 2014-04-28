@@ -1,7 +1,8 @@
 <?php
 
 /**
- * DatabaseSystem
+ * class DatabaseSystem
+ * Handles all database queries
  */
 class DatabaseSystem {
 
