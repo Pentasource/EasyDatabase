@@ -9,4 +9,9 @@ Every Developer wants to focus on the code that makes his project unique. PentaS
 EasyDatabase is a project that easily lets you manage your database connection to any MySQL server. Sending queries never was easier before.
 
 ### How to use
-*WIP*
+#### Setup
+Download the ```inc``` folder and copy it into your website's root directory.
+Then, in your index.php (or whatever entry point you're using), paste this to include the DatabaseSystem:
+```php
+require_once 'inc/DatabaseSystem.class.php';
+```
