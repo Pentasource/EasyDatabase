@@ -1,7 +1,5 @@
 EasyDatabase
 ============
-
-# EasyDatabase
 ## PHP5 Module by PentaSource
 visit [PentaSource.de] (http://pentasource.de/) for more information
 
