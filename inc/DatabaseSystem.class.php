@@ -18,10 +18,10 @@ class DatabaseSystem {
 	 * $dp_name : Name of the database // Name der Datenbank
 	 *
 	 */
-	private static $db_host = "example.com";
+	private static $db_host = "localhost";
 	private static $db_user = "root";
-	private static $db_pass = "my_password";
-	private static $db_name = "default";
+	private static $db_pass = "password";
+	private static $db_name = "test_db";
 
 	/** stores MySQLi connection */
 	private static $db_link;
@@ -76,7 +76,6 @@ class DatabaseSystem {
 
 		$result = self::$db_link -> query($statement);
 
-		self::disconnect();
 		return $result;
 	}
 
